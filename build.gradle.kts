@@ -9,6 +9,9 @@ plugins {
 }
 
 taboolib {
+    env {
+        repoTabooLib = "https://repo.tabooproject.org/repository/releases/"
+    }
     description {
         contributors {
             name("坏黑")
